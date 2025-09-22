@@ -21,7 +21,7 @@ print("(H)ello \n(G)oodbye \n(Q)uit")
 option = input(">>> ").upper()
 
 # Main loop for choice selection
-while option !="Q":
+while option != "Q":
     if option == "H":
         print(f"Hello {name}")
     elif option == "G":

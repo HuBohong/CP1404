@@ -14,8 +14,21 @@
 #     # print()
 #     file.write("abc,2020,1000 \n")
 
-with open("GuitarPractice" , "r") as file:
-    # line = file.readline()
-    # print(line)
-    line = file.readlines()
-    print(line)
+# with open("GuitarPractice" , "r") as file:
+#     # line = file.readline()
+#     # print(line)
+#     line = file.readlines()
+#     print(line)
+
+# with open("GuitarPractice" , "r") as file:
+#     # line = file.readline()
+#     # print(line)
+#     line = file.read(128)
+#     print(line)
+#
+# with open("GuitarPractice" , "rb") as file:
+#     # line = file.readline()
+#     # print(line)
+#     line = file.read()
+#     print(line)
+

@@ -13,9 +13,9 @@ while choice != Q
    get choice
 display finished message
 """
-
+MENU = "(H)ello \n(G)oodbye \n(Q)uit"
 name = input("Enter name: ")
-print("(H)ello \n(G)oodbye \n(Q)uit")
+print(MENU)
 
 # Get user choice with upper case
 option = input(">>> ").upper()
@@ -28,8 +28,8 @@ while option != "Q":
         print(f"Goodbye {name}")
     else:
         print("Invalid choice")
-        # Reenter the choice if invalid
-    print("(H)ello \n(G)oodbye \n(Q)uit")
+
+    print(MENU)
     option = input(">>> ").upper()
 
 print("Finished.")

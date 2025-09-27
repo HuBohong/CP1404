@@ -57,7 +57,7 @@ The teacher wants to know how many gifts each student will get and how many gift
 # print(f"your name is {user_name.upper()} and salary is ${user_salary:.2f}")
 
 # total_age = 0
-# people_number = int(input("How many people are there? "))
+# people_number = int(input(" How many people are there? "))
 # while people_number <= 0:
 #     print("Invalid input")
 #     people_number = int(input("How many people are there? "))
@@ -112,3 +112,92 @@ The teacher wants to know how many gifts each student will get and how many gift
 #
 # area = length * width
 # print(f"The area is: {area}")
+
+# from random import randint
+#
+#
+# def main():
+#     high, low = get_valid_number()
+#     random_number = randint(low, high + 1)
+#     print_face(random_number)
+#
+#
+# def get_valid_number():
+#     high = int(input("Please enter the height number"))
+#     low = int(input("Please enter the low number"))
+#
+#     while high <= low:
+#         print("Invalid input")
+#         high = int(input("Please enter the height number"))
+#         low = int(input("Please enter the low number"))
+#
+#     return high, low
+#
+#
+# def print_face(random_number: int):
+#     print(":)" * random_number)
+#
+#
+# main()
+
+#
+# """practice"""
+# import random
+#
+#
+# def main():
+#     name = ""
+#     print_menu()
+#     user_choice = int(input("please select a method to try:"))
+#
+#     # while user_choice > 4 or user_choice < 1:
+#     #     print("Invalid input")
+#     #     user_choice = int(input("please select a method to try:"))
+#
+#     while user_choice != 4:
+#         if user_choice == 1:
+#             name = get_name()
+#
+#         elif user_choice == 2:
+#             print_lines()
+#
+#         elif user_choice == 3:
+#             print_ramdom_number()
+#
+#         else:
+#             print("invalid input")
+#         print_menu()
+#         user_choice = input("please select a method to try:")
+#
+#     print(f"bye{name}")
+#
+#
+# def print_menu():
+#     print("User Menu:\n 1. get valid name \n 2. print a line \n 3. print ramdom number \n 4.quit")
+#
+#
+# def get_name():
+#     """get valid name from user"""
+#     user_name = input("please enter your name:")
+#     while user_name == "":
+#         print("invalid input")
+#         user_name = input("please enter your name:")
+#
+#     return user_name
+#
+#
+# def print_lines():
+#     print("*" * 10)
+#
+#
+# def print_ramdom_number():
+#     print(random.randint(1, 100))
+#
+#
+# main()
+
+"""
+assertion statement
+true do noting 
+false raise assertion error
+"""

@@ -195,9 +195,26 @@ The teacher wants to know how many gifts each student will get and how many gift
 #
 #
 # main()
+#
+# """
+# assertion statement
+# true do noting
+# false raise assertion error
+# """
+#
+#
+# # max_length = m
+#
+# list = [1,2,3,4,5,6,7,8,9]
+# # print(max(list))
+# text = "This is a sentence"
+# list_word = text.split()
+# for word in list_word:
+#     if len(word) > 3:
+#         print(word)
 
-"""
-assertion statement
-true do noting 
-false raise assertion error
-"""
+# for char in text:
+# #     print(char, end=" ")
+# file = open("GuitarPractice" , "a")
+# file.write("GuitarPractice")
+# file.close()

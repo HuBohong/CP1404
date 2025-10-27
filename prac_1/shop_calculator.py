@@ -60,15 +60,15 @@ total_holiday_cost = (HOTEL_COST + daily_food_cost + daily_activities_cost) * nu
 print total_holiday_cost
 """
 # HOTEL_COST = 75
-daily_food_cost = float(input("Daily food cost: "))
+# daily_food_cost = float(input("Daily food cost: "))
+# #
+# # persentage = 0.15 * 100
+# # print(persentage, "%")
+# deep_sleep_min = 1
+# deep_sleep_sec = 20
+# print("Deep sleep  = ", deep_sleep_min, "m", deep_sleep_sec, "s")
 #
-# persentage = 0.15 * 100
-# print(persentage, "%")
-deep_sleep_min = 1
-deep_sleep_sec = 20
-print("Deep sleep  = ", deep_sleep_min, "m", deep_sleep_sec, "s")
-
-# """
+# # """
 # 4. Deep Sleep
 # """
 # DISCOUNT_RATE = 0.2
@@ -76,6 +76,10 @@ print("Deep sleep  = ", deep_sleep_min, "m", deep_sleep_sec, "s")
 # discount = original_price * DISCOUNT_RATE
 # new_price = original_price - discount
 # print("the discounted price is, new_price")
-"""
-注释写在这里
-"""
+
+# things = {1, 10, 20, 1, 10}
+# things.add(20)
+# print(len(things))
+
+d ={'a': 123, 'b': 234}
+d.get('a') += 1

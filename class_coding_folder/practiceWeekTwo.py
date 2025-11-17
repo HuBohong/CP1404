@@ -220,7 +220,169 @@
 # name_and_length_com = {name: len(name) for name in data}
 # print(name_and_length_com)
 
-monsters = [["mike", 340], ["James", 14], ["Randall", 24]]
-scary_monsters = [monster for monster in monsters if monster[1] > 16]
+# monsters = [["mike", 340], ["James", 14], ["Randall", 24]]
+# scary_monsters = [monster for monster in monsters if monster[1] > 16]
+#
+# print(scary_monsters)
 
-print(scary_monsters)
+
+"""
+为什么要用函数？
+高代码复用性
+提高代码可读性
+模块化编程
+
+def 函数名(参数列表):
+    ### 函数体
+    return 返回值
+
+函数名()
+def get_valid_number(x):
+    y = x+3
+    return y
+
+y = get_valid_number(5)
+##函数名命名方法?
+
+形参 vs 实参
+参数传递机制
+
+
+"""
+from operator import length_hint
+
+from Demos.security.sspi.validate_password import validate
+
+# def get_valid_number(x):
+#     y = x+3
+#     return y
+#
+# jie_shou = get_valid_number(5)
+# print(jie_shou)
+
+# def main():
+#     height = get_valid_number()
+#
+#     dose = input("Dose: ")
+#     yie = input("Yield: ")
+#     ratio = calculate_coffee_ratio(dose, yie)
+#
+#     calculate_bmi(2,3)
+#
+# def get_valid_number():
+#     return 1
+#
+# def calculate_bmi(height, weight):
+#     return weight / (height ** 2)
+# def calculate_coffee_ratio(dose, yie):
+#     return yie / dose
+#
+#
+# class Thing:
+#     def __init__(self, a, b):
+#         self.a = a
+#         self.b = b
+#
+#     def change(self, b):
+#         self.a += b
+#
+# it = Thing(5, 6)
+# it.change(2)
+# # print(it.a, it.b)
+#
+# FILENAME = "practiceWeekTwo.py"
+#
+# def factorial1():
+#     x = 1
+#     print(x+g)
+#
+# def factorial2():
+#     a = 2
+#     print(FILENAME)
+#
+# def main():
+#     g = 1
+#     factorial1()
+#     factorial2()
+#
+# main()
+#
+# numbers = [10, 20, 40, 20 ,81]
+# #
+# # # numbers.append(1)
+# # numbers.reverse()
+#
+#
+# for number in numbers:
+#     print(number)
+
+
+# places = ["guizhou", "beijing", "shanghai", "hangzhou", "gangguojin", "shizonglinjia"]
+# # place = input("Place: ")
+# # while place != "":
+#         places.append(place)
+# #     place = input("Place: ")
+# # print(len("gangguojin"))
+# # print(len(places))
+# longest_place = ""
+# length = 0
+# print("On my holiday, I went to: ")
+# for place in places:
+#     if len(place) > length:
+#         longest_place = place
+#         length = len(place)
+#
+# print(longest_place)
+
+
+
+# """
+# 1 用户输入要生成多少个随机数
+# 2 让用户设置随机数最大数字
+# 3 最大值
+# 4 最小值
+# 5 随机从列表中选择一个数字
+# 6 顺序排列
+# 7 反序排列
+# # """
+# from random import randint
+#
+# number_of_randoms = 5
+# max_of_ramdoms = 100
+#
+#
+# numbers = []
+#
+# for i in range(number_of_randoms):
+#     random_number = randint(0, max_of_ramdoms)
+#     #将随机数加入列表
+#     numbers.append(random_number)
+# #最大值
+# max(numbers)
+# #最小值
+# min(numbers)
+# #生成随机索引
+# random = randint(0,len(numbers)-1)
+# print(numbers)
+# #打印随机索引对应的数字
+# print(numbers[random])
+#
+# #反序排列
+# numbers.reverse()
+# print(numbers)
+# #顺序排列
+# numbers.sort()
+# print(numbers)
+
+
+#
+# red_team = ["Miles", "Ella", "Chet"]
+# blue_team = ["Louis", "Wes", "Jimmy"]
+#
+# for player in red_team:
+#     for opponent in blue_team:
+#         print(f"{player} vs. {opponent}")
+#     print("---------------------")
+# print()
+
+# position argument的顺序
